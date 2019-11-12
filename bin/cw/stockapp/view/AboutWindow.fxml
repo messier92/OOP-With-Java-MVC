@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="317.0" layoutY="14.0" text="CMT 205 Object-Oriented Development with Java " />
+      <Label layoutX="381.0" layoutY="32.0" text="Coursework 1 by 1868149" />
+      <Label layoutX="95.0" layoutY="59.0" text="1.  The first scene 'Overview' shows a tableview with the parameters 'Stock Symbol', 'Company Name', 'Open', 'High', 'Low', 'Close' and 'Adj Close'." AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="-95.0" />
+      <Label layoutX="110.0" layoutY="77.0" text="The user can retrieve the details of all companies for a particular date." AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="95.0" layoutY="95.0" text="2.  The second scene 'Indv. Stock Performance' shows three graphs when a company is selected - a line chart, a bar chart and a scatter chart." AnchorPane.leftAnchor="95.0" />
+      <Label layoutX="110.0" layoutY="113.0" text="The line chart plots 'Volume' against 'Date' of a company." AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="108.0" layoutY="131.0" text="The bar chart shows the difference between 'Open' and 'Close' of a company." AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="110.0" layoutY="150.0" text="The scatter chart shows the Highest and Lowest of a company against 'Date'." AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="91.0" layoutY="168.0" text="3. The third scene  'Compare Stocks' allows the user to select a 'Date' and two 'Companies'. " AnchorPane.leftAnchor="95.0" />
+      <Label layoutX="108.0" layoutY="186.0" text="The numerical parameters for each company will be retrieved and the difference is calculated." AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="95.0" layoutY="204.0" text="4. The fourth scene 'Print Report' allows the user to have a general overview of a company" AnchorPane.leftAnchor="95.0" />
+      <Label layoutX="110.0" layoutY="222.0" text="Some Key Performance Indicators among all the companies are indicated" AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="109.0" layoutY="240.0" text="It is able to save a summary of key facts for all companies and allow the user to choose the directory to save the file" AnchorPane.leftAnchor="110.0" />
+      <Label layoutX="110.0" layoutY="258.0" text="5. The fifth scene 'Compare Graphs' allows the user to select as many companies as he/she wants and plot a specific parameter" AnchorPane.leftAnchor="95.0" />
+      <Label layoutX="110.0" layoutY="277.0" text="Due to time constraints, only a line chart is used to represent the data" AnchorPane.leftAnchor="110.0" />
+   </children>
+</AnchorPane>

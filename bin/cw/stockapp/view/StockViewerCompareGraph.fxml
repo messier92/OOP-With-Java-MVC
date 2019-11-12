@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cw.stockapp.view.StockCompareGraphController">
+   <children>
+      <LineChart fx:id="lineChartDatePara" layoutX="396.0" layoutY="112.0" prefHeight="522.0" prefWidth="578.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="25.600000000000023">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <ChoiceBox fx:id="parametersChoiceBox1" layoutX="68.0" layoutY="557.0" prefWidth="150.0" />
+      <Button layoutX="68.0" layoutY="608.0" mnemonicParsing="false" onAction="#plotcomparegraph" prefHeight="26.0" prefWidth="150.0" text="Compare" AnchorPane.leftAnchor="68.0" />
+      <Label layoutX="111.0" layoutY="528.0" text="Parameters" />
+      <CheckBox fx:id="boxaht" layoutX="34.0" layoutY="94.0" mnemonicParsing="false" text="Ashtead Group plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="115.0" layoutY="57.0" text="Company" AnchorPane.rightAnchor="750.0" />
+      <CheckBox fx:id="boxanto" layoutX="80.0" layoutY="122.0" mnemonicParsing="false" text="Antofagasta plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="115.0" />
+      <CheckBox fx:id="boxba" layoutX="30.0" layoutY="152.0" mnemonicParsing="false" text="BAE Systems plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="140.0" />
+      <CheckBox fx:id="boxbats" layoutX="28.0" layoutY="180.0" mnemonicParsing="false" text="British American Tobacco plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="165.0" />
+      <CheckBox fx:id="boxcch" layoutX="28.0" layoutY="209.0" mnemonicParsing="false" text="Coca-Cola HBC AG" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="190.0" />
+      <CheckBox fx:id="boxccl" layoutX="28.0" layoutY="235.0" mnemonicParsing="false" text="Carnival plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="215.0" />
+      <CheckBox fx:id="boxcna" layoutX="30.0" layoutY="264.0" mnemonicParsing="false" text="Centrica plc" AnchorPane.topAnchor="240.0" />
+      <CheckBox fx:id="boxcpg" layoutX="30.0" layoutY="289.0" mnemonicParsing="false" text="Compass Group plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="265.0" />
+      <CheckBox fx:id="boxexpn" layoutX="30.0" layoutY="318.0" mnemonicParsing="false" text="Experian plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="290.0" />
+      <CheckBox fx:id="boxezj" layoutX="28.0" layoutY="341.0" mnemonicParsing="false" text="EasyJet plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="315.0" />
+      <CheckBox fx:id="boxgkn" layoutX="28.0" layoutY="341.0" mnemonicParsing="false" text="GKN plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="340.0" />
+      <CheckBox fx:id="boxppb" layoutX="69.0" layoutY="439.0" mnemonicParsing="false" text="Paddy Power Betfair plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="415.0" />
+      <CheckBox fx:id="boxmdc" layoutX="28.0" layoutY="364.0" mnemonicParsing="false" text="Mediclinic International plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="365.0" />
+      <CheckBox fx:id="boxpfg" layoutX="123.0" layoutY="392.0" mnemonicParsing="false" text="Provident Financial plc" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="390.0" />
+      <Label layoutX="577.0" layoutY="66.0" text="Parameter vs Date" AnchorPane.rightAnchor="326.20000000000005" />
+      <Label layoutX="434.0" layoutY="90.0" text="Parameter" />
+      <Label layoutX="526.0" layoutY="634.0" text="Date" AnchorPane.rightAnchor="448.4" />
+      <CheckBox fx:id="boxpru" layoutX="257.0" layoutY="90.0" mnemonicParsing="false" text="Prudential plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxpsn" layoutX="257.0" layoutY="115.0" mnemonicParsing="false" text="Persimmon plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxrb" layoutX="257.0" layoutY="140.0" mnemonicParsing="false" text="Reckitt Benckiser Group plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxrdsa" layoutX="257.0" layoutY="165.0" mnemonicParsing="false" text="Royal Dutch Shell plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxrr" layoutX="257.0" layoutY="190.0" mnemonicParsing="false" text="Rolls-Royce Holdings plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxsdr" layoutX="257.0" layoutY="215.0" mnemonicParsing="false" text="Schroders plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxshp" layoutX="257.0" layoutY="240.0" mnemonicParsing="false" text="Shire plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxsky" layoutX="255.0" layoutY="265.0" mnemonicParsing="false" text="Sky plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxsse" layoutX="255.0" layoutY="290.0" mnemonicParsing="false" text="SSE plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxstj" layoutX="258.0" layoutY="315.0" mnemonicParsing="false" text="St. James's Place plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxtsco" layoutX="258.0" layoutY="341.0" mnemonicParsing="false" text="Tesco plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxtui" layoutX="260.0" layoutY="365.0" mnemonicParsing="false" text="TUI AG" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxvod" layoutX="254.0" layoutY="390.0" mnemonicParsing="false" text="Vodafone Group plc" AnchorPane.leftAnchor="260.0" />
+      <CheckBox fx:id="boxwpg" layoutX="254.0" layoutY="415.0" mnemonicParsing="false" text="Worldpay Group plc" AnchorPane.leftAnchor="260.0" />
+   </children>
+</AnchorPane>
